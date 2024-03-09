@@ -6,10 +6,10 @@ public class Homework {
         int num1 = 5;
         int num2 = 10;
 
-        int result = num1 + num2;
+        int result = num1 + num2; // в задаче было произведение двух чисел, у тебя сложение
 
         System.out.println(result);
-
-
+// эта строка не нужна, удали
+// эта строка не нужна, удали
     }
 }
