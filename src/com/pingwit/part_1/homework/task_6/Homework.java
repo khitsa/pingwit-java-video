@@ -8,8 +8,6 @@ public class Homework {
 
         int result = num1 + num2; // в задаче было произведение двух чисел, у тебя сложение
 
-        System.out.println(result);
-// эта строка не нужна, удали
-// эта строка не нужна, удали
+        System.out.println("Произведение чисел" + num1 + " и " + num2 + " равно " + result);
     }
 }

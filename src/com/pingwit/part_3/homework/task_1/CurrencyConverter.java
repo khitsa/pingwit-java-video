@@ -1,14 +1,7 @@
 package com.pingwit.part_3.homework.task_1;
 
-import java.util.Scanner;
-
-/* а ты пробовал запускать свою программу? 
-У тебя class Homework внутри которого class CurrencyConverter, не стоит так делать
-Создай новый класс CurrencyConverter, перенеси скопируй туда метод main из этого файла и затем удали этот файл
-*/
-public class Homework {
-    public class CurrencyConverter {
-        public static void main(String[] args) {
+public class CurrencyConverter {
+    public static void main(String[] args) {
             int amountInDollars = 100;
             int currencyId = 2; // Например, 1 - евро, 2 - гривны
 
@@ -28,4 +21,5 @@ public class Homework {
             }
         }
     }
-}
+
+
