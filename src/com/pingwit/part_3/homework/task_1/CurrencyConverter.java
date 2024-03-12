@@ -1,5 +1,6 @@
 package com.pingwit.part_3.homework.task_1;
 
+// отформатируй код
 public class CurrencyConverter {
     public static void main(String[] args) {
             int amountInDollars = 100;
