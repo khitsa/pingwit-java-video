@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class TwoDimensionsArrayExample {
     public static void main(String[] args) {
-        int [][] twoDimensionsArray = new int[5][4];
+        int[][] twoDimensionsArray = new int[5][4];
 
         System.out.println(Arrays.toString(twoDimensionsArray));
 
@@ -19,16 +19,15 @@ public class TwoDimensionsArrayExample {
         }
 
         int[][] initArray = {
-                {22,33,44},
+                {22, 33, 44},
                 {55},
-                {66,77,13}
-
+                {66, 77, 13}
         };
         System.out.println("====");
         for (int i = 0; i < initArray.length; i++) {
-            System.out.println(Arrays.toString(initArray [i]));
+            System.out.println(Arrays.toString(initArray[i]));
         }
 
-        int[][][][] xDimensionsArray = new int [5][][][];
+        int[][][][] xDimensionsArray = new int[5][][][];
     }
 }
