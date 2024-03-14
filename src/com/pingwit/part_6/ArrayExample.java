@@ -20,12 +20,12 @@ public class ArrayExample {
             System.out.println(initArray[i]);
         }
 
-       // System.out.println(initArray[100]);
+        // System.out.println(initArray[100]);
 
 
         System.out.println(Arrays.toString(initArray));
 
         initArray = new Integer[]{0, 1};
-        initArray [0] = 33;
+        initArray[0] = 33;
     }
 }
