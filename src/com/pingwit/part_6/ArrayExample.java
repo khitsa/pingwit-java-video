@@ -10,14 +10,13 @@ public class ArrayExample {
             array[i] = i + 100;
         }
 
-        for (int i = 0; i < array.length; i++) {
-            System.out.println(array[i]);
-
+        for (Integer integer : array) {
+            System.out.println(integer);
         }
 
         Integer[] initArray = {9, 8, 7, 6, 5,};
-        for (int i = 0; i < initArray.length; i++) {
-            System.out.println(initArray[i]);
+        for (Integer integer : initArray) {
+            System.out.println(integer);
         }
 
         // System.out.println(initArray[100]);
