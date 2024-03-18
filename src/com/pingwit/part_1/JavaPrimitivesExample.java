@@ -2,7 +2,7 @@ package com.pingwit.part_1;
 
 public class JavaPrimitivesExample {
 
-    public static void main(String[] args ) {
+    public static void main(String[] args) {
         /*
         byte 2^8 -> 256 /2 -> -128 +0 +127
         short 2^16 -> 65536 -> -32768 +32767
@@ -39,7 +39,6 @@ public class JavaPrimitivesExample {
 
         boolean myBoolean = false;
         System.out.println(myBoolean);
-
 
 
     }

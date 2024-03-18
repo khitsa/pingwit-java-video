@@ -19,10 +19,5 @@ public class OperatorComparisonExample {
         System.out.println(b_1 != b_2);
 
 
-
-
-
-
-
     }
 }
