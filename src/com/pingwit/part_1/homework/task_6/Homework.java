@@ -8,6 +8,6 @@ public class Homework {
 
         int result = num1 + num2; // в задаче было произведение двух чисел, у тебя сложение
 
-        System.out.println("Произведение чисел" + num1 + " и " + num2 + " равно " + result);
+        System.out.println("Произведение чисел" + num1 + " и " + num2 + " равно " + result); // Не смущает, что произведение 5 и 10 = 15?
     }
 }

@@ -9,6 +9,6 @@ public class Homework {
         int remainder = dividend % divisor;
 
         // Выводим остаток на экран
-        System.out.println(" Остаток от деления " + dividend + " на " + dividend + " равен " + remainder);
+        System.out.println(" Остаток от деления " + dividend + " на " + dividend + " равен " + remainder); // у тебя здесь скорее всего опечатка, т.к. dividend дублируется два раза
     }
 }

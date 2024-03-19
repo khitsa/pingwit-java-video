@@ -1,5 +1,6 @@
 package com.pingwit.part_1.homework.task_7;
 
+// в строке 6 все еще старый код
 public class Homework {
     public static void main(String[] args) {
         int expression = 56 / 8; // остаток от деления дает оператор %, у тебя обычное деление двух целых чисел. 56/8 = 7 и программа у тебя распечает 7, а остаток от деления у тебя = 0
