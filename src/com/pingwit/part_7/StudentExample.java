@@ -17,6 +17,5 @@ public class StudentExample {
         System.out.println(olya.name);
         System.out.println(olya.surname);
         System.out.println(olya.age);
-
     }
 }
