@@ -1,10 +1,14 @@
 package com.pingwit.part_7;
 
 public class Student {
+    static String message;
     String name;
     String surname;
+    String group;
     int age;
     double height;
+    Boolean expelled;
+    boolean happy;
 
     public Student(String name, String surname) {
         System.out.println("Hello from constructor");
