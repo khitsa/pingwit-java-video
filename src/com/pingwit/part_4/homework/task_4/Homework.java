@@ -8,7 +8,7 @@ public class Homework {
         System.out.println(a + " * " + b + " = " + result);
     }
 
-    public static int multiply(int a, int b) {
+    public static int multiply(int a, int b) {//хорошее решение
         int result = 0;
         boolean isNegative = (a < 0 && b > 0) || (a > 0 && b < 0);
 

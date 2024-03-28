@@ -10,6 +10,6 @@ public class Homework {
             distance *= 1.1; // увеличиваем расстояник на 10% для след дня
             day++; // увеличиваем счетчик дней
         }
-        System.out.println("Сумарный путь спортсмена за 7 дней: " + totalDistance + " км");
+        System.out.println("Сумарный путь спортсмена за 7 дней: " + totalDistance + " км"); // Сумарный -> Суммарный
     }
 }

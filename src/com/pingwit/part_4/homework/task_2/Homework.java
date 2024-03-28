@@ -8,7 +8,7 @@ public class Homework {
 
         while (time <= hours) {
             amoeba *= 2;
-            System.out.println("Через " + time + " часов будет " + amoeba + "амеб(ы).");
+            System.out.println("Через " + time + " часов будет " + amoeba + "амеб(ы)."); // "амеб(ы)." -> добавь пробел после первой "
             time += 3;
         }
     }
