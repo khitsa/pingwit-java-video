@@ -1,5 +1,7 @@
 package com.pingwit.part_6.homework.task_5;
 
+//пока не экране вижу только 0
+//для это задачи тебе понадобиться обычный цикл for, второй массив не нужен
 public class Homework {
     public static void main(String[] args) {
         // исходный массив

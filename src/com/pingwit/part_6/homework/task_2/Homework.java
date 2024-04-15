@@ -15,7 +15,7 @@ public class Homework {
         double average = (double) sum / numbers.length;
 
         // выводим результат на экран
-        System.out.println("среднее арифмитическое чисел в массиве: " + average);
+        System.out.println("среднее арифмитическое чисел в массиве: " + average); // Опечатка в слове арифмитическое
 
     }
 }

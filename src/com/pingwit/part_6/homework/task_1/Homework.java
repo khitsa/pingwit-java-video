@@ -11,7 +11,7 @@ public class Homework {
         Scanner scanner = new Scanner(System.in);
 
         // заполняем массив значениями, введеными пользователем
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 3; i++) { // i < 3 -> numbers.length
             System.out.println("введите число " + (i + 1) + ": ");
             numbers[i] = scanner.nextInt();
         }
@@ -34,8 +34,8 @@ public class Homework {
         }
 
         // выводим результат на экран
-        System.out.println("сумма чисел: " + sum);
-        System.out.println("Наименшее число: " + min);
-        System.out.println("наибольшое число: " + max);
+        System.out.println("сумма чисел: " + sum); // Почему все другие слова с большой буквы, а "сумма" с маленькой?
+        System.out.println("Наименшее число: " + min); // опечатка в слове Наименшее
+        System.out.println("наибольшое число: " + max); // Опечатка в слове наибольшое
     }
 }

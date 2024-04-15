@@ -28,7 +28,7 @@ public class Homework {
         // выводим новый массив на экран
         System.out.println("Массив четных элементов:");
         for (int num : evenArray) {
-            System.out.println(num + "");
+            System.out.println(num + ""); // + "" - этот код ничего не меняет, скорее всего ты хотел добавить пустую строку, тогда необходимо поставить пробел внутри ковычек -> + " "
         }
     }
 }

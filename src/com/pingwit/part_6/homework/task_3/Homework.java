@@ -15,7 +15,7 @@ public class Homework {
         // выводим измененный массив
         System.out.println("Измененный массив:");
         for (int num : array) {
-            System.out.print(num + "");
+            System.out.print(num + ""); // А зачем ты добавляешь ""?
         }
     }
 }
