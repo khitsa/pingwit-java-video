@@ -1,4 +1,4 @@
-package com.pingwit.part_7.homework;
+package com.pingwit.part_7.homework.task_4;
 
 // это Task 4, значит, нужен отдельный пакет task_4
 public class CarlnsuranceCalculator { // если Idea что-то подчеркнула зеленым, скорее всего есть опечатка, поправь
