@@ -10,15 +10,15 @@ public class Person {
         this.age = age;
     }
 
-    // консруктор без аргументов
+    // консруктор без аргументов - опечатки в комментариях не страшны, но все равно лучше не делать
     public Person() {
         this.name = "Unknown";
         this.age = 0;
     }
 
-    // блок инцилизпции
+    // блок инцилизпции - опечатки в комментариях не страшны, но все равно лучше не делать
     {
-        System.out.println("Создан новый экземляр класса Person");
+        System.out.println("Создан новый экземляр класса Person"); // если Idea что-то подчеркнула зеленым, скорее всего есть опечатка, поправь
     }
 
     // геттеры и сеттеры
@@ -38,7 +38,7 @@ public class Person {
         this.age = age;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { // лучше создавай отдельный класс методом main
         // создание экземпляра класса Person с аргументами
         Person person1 = new Person("Egorka", 23);
         System.out.println("Имя: " + person1.getName() + "Возраст: " + person1.getAge());
@@ -46,7 +46,7 @@ public class Person {
         // создание экземпляра классам Person без аргументов
         Person person2 = new Person();
         System.out.println("Имя: " + person2.getName() + "Возраст: " + person2.getAge());
-
+// лишняя строка, удали
     }
 
 }
