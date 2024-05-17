@@ -9,7 +9,7 @@ public class TurnOn {
         houses[1] = new CountryHouse(2, 8);
         houses[2] = new Flat(10, 20);
 
-        Katalog catalog = new Katalog(houses); // перед тем как пушить код всегда его запускай. Твой вариант пока не компилируется
+        Catalog catalog = new Catalog(houses);
 
         catalog.turnOnHeatingForHousesWithConditions();
     }
