@@ -1,5 +1,6 @@
 package com.pingwit.part_8.homework.task_1;
 
+// весь код, который ты пишешь надо запускать, добавь метод класс с методом мейн и обязательно проверь все ли ок работает
 public class CarManager {
     private Car[] cars;
 
