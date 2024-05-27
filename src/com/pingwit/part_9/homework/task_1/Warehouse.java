@@ -14,7 +14,7 @@ public class Warehouse {
 
     // Метод для получения следующего элемента массива
     public int next() {
-        int element = array[currentIndex];
+        int element = array[currentIndex]; // (currentIndex + 1) % array.length; - ты сам придумал решение или подсмотрел где-то? Очень элегантно
         currentIndex = (currentIndex + 1) % array.length; // Сбрасываем индекс при достижении конца массива
         return element;
     }
@@ -30,7 +30,7 @@ public class Warehouse {
         return Arrays.toString(array);
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { // всегда выноси метод main в отдельный класс
         int[] data = {1, 2, 3, 4, 5};
         Warehouse warehouse = new Warehouse(data);
 

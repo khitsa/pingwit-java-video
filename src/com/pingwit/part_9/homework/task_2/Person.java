@@ -7,11 +7,11 @@ public class Person {
     private Gender gender;
     private MaritalStatus maritalStatus;
 
-    public enum Gender {
+    public enum Gender { // в отдельный файл
         MALE, FEMALE
     }
 
-    public enum MaritalStatus {
+    public enum MaritalStatus {// в отдельный файл
         SINGLE, MARRIED
     }
 
