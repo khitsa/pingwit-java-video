@@ -1,8 +1,11 @@
 package com.pingwit.part_10.point_1;
 
-public class Audi implements Car {
+public class Audi implements Car, Engine {
 
     private static final String PRODUCER = "Audi";
+
+    private int CurrentTransmission = 0;
+
    @Override
     public void move() {
        System.out.println("Audi is moving");
@@ -10,6 +13,12 @@ public class Audi implements Car {
 
    @Override
     public String getProducer() {
-       return "Audi";
+       return PRODUCER;
    }
+
+   public int getCurrentTransmission() {
+       return  CurrentTransmission;
+   }
+
+
 }
