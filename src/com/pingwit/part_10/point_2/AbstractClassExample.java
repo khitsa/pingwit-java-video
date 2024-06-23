@@ -8,6 +8,10 @@ public class AbstractClassExample {
         Вместо создания обьктов абстрактный класс служит как базовый элемент для других классов.
          */
 
-      //  Furniture furniture = new Chair();
+        Furniture furniture = new Chair("white", "wood", true);
+        System.out.println(furniture.model());
+
+        System.out.println("=== BabyChair ===");
+        Furniture babyChair = new BabyChair(null, null, false);
     }
 }
